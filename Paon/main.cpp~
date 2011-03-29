@@ -1,0 +1,14 @@
+#include		<iostream>
+#include		<dlfcn.h>
+#include		<cstdlib>
+
+#include		"../include/Nibbler.hh"
+#include		"../include/IGraph.hh"
+
+int			main(int argc, char **argv)
+{
+    Nibbler		game;
+
+    game.launchGame(argc, argv);
+    return (EXIT_SUCCESS);
+}

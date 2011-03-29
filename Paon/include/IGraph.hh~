@@ -1,0 +1,16 @@
+#ifndef			_IGRAPH_HH_
+# define		_IGRAPH_HH_
+
+# include		"Nibbler.hh"
+
+class                   Nibbler;
+
+class			IGraph
+{
+
+  public:
+    virtual ~IGraph() {}
+    virtual void	run(int, char **, Nibbler &) = 0;
+};
+
+#endif
