@@ -1,0 +1,11 @@
+Paon -- A simple Snake game written in C++, including a two players "Tron mode"
+
+In order to compile it, you need g++-4.5 (Yes, you're gonna have to compile it
+from source if you're on OSX). Just go in QTPaon-build-desktop and type 'make'
+then on root directory type make too.
+
+You're done, you can now load the game with the following command:
+
+./exec/Paon x_plate_size y_plate_size lib_paon_qt.so
+
+replacing x_plate_size and y_plate_size by a value beetween ]20;200]
